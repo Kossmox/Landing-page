@@ -88,7 +88,7 @@ justify-content: space-between;
     background-color: rgb(255, 140, 78);
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;

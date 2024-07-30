@@ -1,0 +1,200 @@
+body{ 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(248, 163, 51);
+}
+
+
+
+
+
+
+.header1 {
+    background-image:linear-gradient(red,rgb(255, 213, 0));
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.logo {
+    color:white;
+   
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: -75px;
+    align-self: flex-start;
+    
+    
+  
+
+}
+a {text-decoration: none;
+    color: white;
+}
+    
+.links {
+    margin-top: -70px;
+    margin-left:50px;
+    display: flex; 
+    align-self:flex-start;
+    
+    gap: 50px;
+}
+
+.header-text {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.main-text{
+color:rgb(238, 236, 236);
+font-size: 18px;
+text-align: left;
+margin-right: 50px;
+
+}
+
+.secondline {
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+
+.image {
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.signup-button {
+    font-weight: 800;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+
+.secondheader {
+    background-color: rgb(255, 140, 78);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 25px;
+    
+
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #e9e9e9;
+    
+}
+
+.undertitle {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.square {
+    border: solid red 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+ 
+}
+.sqtxt {
+    color: rgb(226, 225, 225);
+    font-size: 15px;
+    max-width: 250px;
+    text-align: center;
+    
+
+}
+
+.boxtxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.thirdheader {
+padding: 200px;
+    background-color: rgb(247, 179, 61);
+    display: flex;
+    flex-direction: column;
+}
+.maintexth3{
+    font-size: 25px;
+    color: #e9e9e9;
+}
+.autor {
+    color: #e9e9e9;
+    align-self:flex-end;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+.fourthheader {
+    background-color: #e9e9e9;
+    padding: 150px;
+}
+.containerboxh4 {
+    padding: 50px;
+    background-color: rgb(128, 0, 240);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.toptext{ 
+    color: #e9e9e9;
+    font-size: 25px;
+}
+.bottomtext{
+    color: #e9e9e9;
+    font-size: 18px;
+}
+.signup-button2 {
+    align-self: center;
+    background-color:rgb(128, 0, 240) ;
+    color: #e9e9e9;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right:100px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border:solid white 3px;
+}
+
+.footer {
+    padding:100px;
+    background-color: rgb(180, 178, 178);
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
